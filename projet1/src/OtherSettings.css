@@ -1,0 +1,116 @@
+/* OtherSettings.css */
+.other-settings-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: #007bff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.settings-section {
+    margin-bottom: 30px;
+}
+
+.add-button, .edit-button, .delete-button, .cancel-button {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-button {
+    background: #28a745;
+    color: #fff;
+}
+
+.add-button:hover {
+    background-color: #218838;
+}
+
+.edit-button {
+    background: #007bff;
+    color: #fff;
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    background: grey;
+    color: #fff;
+}
+
+.delete-button:hover {
+    background-color: grey;
+}
+
+.cancel-button {
+    background: grey;
+    color: #fff;
+}
+
+.cancel-button:hover {
+    background: grey;
+}
+
+.settings-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.settings-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.settings-id {
+    width: 10%;
+    font-weight: bold;
+}
+
+.settings-name {
+    flex: 1;
+}
+
+.settings-actions {
+    width: 20%;
+    text-align: right;
+}
+
+.add-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-form input {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.add-form button {
+    padding: 5px 10px;
+    border-radius: 4px;
+}

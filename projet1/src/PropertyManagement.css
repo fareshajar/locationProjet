@@ -1,0 +1,179 @@
+.property-management {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom:40px;
+}
+
+.property-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.property-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.property-images {
+    display: flex;
+    overflow-x: auto;
+    height: 75%;
+}
+
+.property-images img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.property-details {
+    padding: 15px;
+}
+
+.property-details h3 {
+    margin: 0 0 10px;
+}
+
+.property-actions {
+    margin-top: 10px;
+}
+
+.property-actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.property-actions button:hover {
+    background-color: #0056b3;
+}
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.form-container input,
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}
+
+.cancel-button {
+    background-color: #dc3545; /* Couleur pour le bouton Annuler */
+}
+
+.cancel-button:hover {
+    background-color: #c82333; /* Couleur au survol pour Annuler */
+}
+
+.image-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.image-list span {
+    margin-right: 10px; /* Espacement entre le nom et le bouton Supprimer */
+}
+
+.image-list button {
+    background-color: #dc3545; /* Couleur pour le bouton Supprimer */
+}
+
+
+.property-card {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.property-card .property-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.property-card .property-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.property-card .property-details h3 {
+    margin: 0;
+    color: #333;
+}
+
+.property-card .property-details p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.property-card .property-actions {
+    display: flex;
+    margin-top: 10px;
+}
+
+.property-card .property-actions button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.property-card .property-actions button:hover {
+    background-color: #0056b3;
+}

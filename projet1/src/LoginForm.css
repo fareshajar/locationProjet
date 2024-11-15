@@ -1,0 +1,181 @@
+/* Conteneur principal */
+.login-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif; /* Police moderne */
+}
+
+/* Section gauche (formulaire) */
+.left-section {
+    flex: 1; /* Prend 1 part de l'espace disponible */
+    background: linear-gradient(135deg, #eaf4ff 0%, #d0e6ff 100%); /* Dégradé bleu clair */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15); /* Ombre plus prononcée */
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 600px;
+}
+
+/* Titre principal */
+.left-section h3 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 400; /* Poids de police plus fort */
+}
+
+/* Style des groupes de champs de saisie */
+.input-group {
+    position: relative;
+    margin-bottom: 2rem;
+    width: 80%;
+    max-width: 400px; /* Largeur légèrement augmentée */
+}
+
+.input-group label {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    padding: 0.75rem;
+    flex: 1;
+    font-size: 1.1rem;
+    color: #333;
+    background: #fafafa; /* Arrière-plan plus clair */
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.input-group input::placeholder {
+    color: #888;
+}
+
+/* Animation de focus des champs de saisie */
+.input-group input:focus {
+    background: #fff;
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+/* Style des icônes */
+.input-group .fa {
+    margin-right: 0.75rem;
+    color: #007bff; /* Bleu clair pour les icônes */
+    font-size: 1.5rem;
+}
+
+/* Icône de visibilité du mot de passe */
+.password-toggle {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #007bff;
+}
+
+/* Style du lien "mot de passe oublié" */
+.remember-forgot {
+    margin-bottom: 2rem;
+}
+
+.remember-forgot a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+/* Style du bouton de soumission */
+button[type="submit"] {
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 220px; /* Largeur légèrement augmentée */
+}
+
+button[type="submit"]:hover {
+    background: #0056b3;
+    transform: translateY(-3px); /* Légère élévation au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre plus prononcée */
+}
+
+/* Style du lien d'inscription */
+.left-section p {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.left-section a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.left-section a:hover {
+    text-decoration: underline;
+}
+
+/* Section droite (image de fond) */
+.right-section {
+    flex: 1; /* Prend 1 part de l'espace disponible */
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.right-section .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Ajouter une superposition pour améliorer la lisibilité du texte */
+/* Ajouter une superposition moins opaque */
+.right-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1); /* Superposition moins opaque */
+    z-index: 1;
+}
+
+.right-section h4, .right-section p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
+    text-align: center;
+}

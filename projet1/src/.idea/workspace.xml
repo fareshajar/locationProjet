@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39e32504-8d3f-4c3a-88c1-e2e0e5e16d2a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocataireList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocataireList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocataireListL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Locateur.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherSettings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherSettings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Planing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Planing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlaningLocateur.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PromoManagement.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PromoManagement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PromoManagementAdmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PropertyManagement.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PropertyManagement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PropertyManagementLocateur.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservationList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservationList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservationListLocateur.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Images3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locateur.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2n5OSmCRRrcjakKZmxbZPvJJXIG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/STAGE/projet1",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39e32504-8d3f-4c3a-88c1-e2e0e5e16d2a" name="Changes" comment="" />
+      <created>1728259473471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728259473471</updated>
+      <workItem from="1728259474626" duration="94000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,131 @@
+/* locateur.css */
+.owner-list-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.back-button {
+    background-color: #3a6ea5;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-button:hover {
+    background-color: #335c8a;
+}
+
+h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+table thead {
+    background-color: #3a6ea5;
+    color: white;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+button:hover {
+    color: #3a6ea5;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+
+textarea {
+    height: 100px;
+}
+
+input:focus, textarea:focus {
+    border-color: #3a6ea5;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #3a6ea5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.button{
+    margin-bottom: 10px;
+}
+button[type="submit"]:hover {
+    background-color: #335c8a;
+}
+
+button svg {
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    .owner-list-container {
+        padding: 15px;
+    }
+
+    table, input, textarea {
+        font-size: 14px;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+}
